@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewStart"
+        android:layout_margin="5dp"
+        android:gravity="start"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/common_google_signin_btn_text_light_pressed"
+        android:text="GR Number :-"
+        android:id="@+id/grno"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        />
+
+    <EditText
+        android:id="@+id/editTextGrNo"
+        android:layout_width="match_parent"
+        android:layout_margin="2dp"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:background="@drawable/rounded_corner_edittext"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        />
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textAlignment="viewStart"-->
+        <!--android:layout_margin="5dp"-->
+        <!--android:gravity="start"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:textColor="@color/common_google_signin_btn_text_light_pressed"-->
+        <!--android:text="Student Mobile Number :-"-->
+        <!--android:id="@+id/studentMobile"-->
+        <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"-->
+        <!--/>-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/editTextStudentNo"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_margin="2dp"-->
+        <!--android:textColor="@color/common_google_signin_btn_text_dark_focused"-->
+        <!--android:background="@drawable/rounded_corner_edittext"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:inputType="phone"-->
+        <!--android:editable="false"-->
+        <!--/>-->
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textAlignment="viewStart"-->
+        <!--android:layout_margin="5dp"-->
+        <!--android:gravity="start"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:textColor="@color/common_google_signin_btn_text_light_pressed"-->
+        <!--android:text="Mother Mobile Number :-"-->
+        <!--android:id="@+id/motherMobile"-->
+        <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"-->
+        <!--/>-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/editTextMotherMobileNo"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_margin="2dp"-->
+        <!--android:textColor="@color/common_google_signin_btn_text_dark_focused"-->
+        <!--android:background="@drawable/rounded_corner_edittext"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:inputType="phone"-->
+        <!--android:editable="false"-->
+        <!--/>-->
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textAlignment="viewStart"-->
+        <!--android:layout_margin="5dp"-->
+        <!--android:gravity="start"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:textColor="@color/common_google_signin_btn_text_light_pressed"-->
+        <!--android:text="Father Mobile Number :-"-->
+        <!--android:id="@+id/fatherMobileNo"-->
+        <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"-->
+        <!--/>-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/editTextFatherMobileNo"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_margin="2dp"-->
+        <!--android:textColor="@color/common_google_signin_btn_text_dark_focused"-->
+        <!--android:background="@drawable/rounded_corner_edittext"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:inputType="phone"-->
+        <!--android:editable="false"-->
+        <!--/>-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewStart"
+        android:layout_margin="5dp"
+        android:gravity="start"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/common_google_signin_btn_text_light_pressed"
+        android:text="SMS Text :-"
+        android:id="@+id/textSms"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        />
+
+    <EditText
+        android:id="@+id/editTextSMS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:gravity="top|left"
+        android:inputType="textMultiLine"
+        android:lines="20"
+        android:minLines="7"
+        android:scrollHorizontally="false"
+        android:scrollbars="vertical"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:background="@drawable/rounded_corner_edittext"
+        android:layout_margin="2dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+       <androidx.appcompat.widget.AppCompatCheckBox
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/checkBoxStudent"
+           android:buttonTint="@color/colorPrimaryDark"
+           android:text="Send To Student"/>
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBoxFather"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:text="Send To Student Father"/>
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBoxMother"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:text="Send To Student Mother"/>
+
+        <Button
+            android:id="@+id/buttonSendSMS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corner_textview"
+            android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+            android:layout_margin="40dp"
+            android:layout_marginBottom="20dp"
+            android:text="Send SMS" />
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

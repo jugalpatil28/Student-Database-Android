@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">StudentDatabase</string>
+
+    <string name="firstNameError">Enter a valid First name</string>
+    <string name="middleNameError">Enter a valid Middle name</string>
+    <string name="lastNameError">Enter a valid Last name</string>
+    <string name="nameError">Enter a valid name</string>
+    <string name="emailError">Enter a valid email</string>
+    <string name="mobileError">Enter a valid mobile</string>
+    <string name="dateError">Enter a valid date</string>
+    <string name="rollError">Enter a valid roll number</string>
+    <string name="casteError">Enter a valid caste name</string>
+    <string name="marks">Enter valid percentage</string>
+    <string name="cgpa">Enter zero if not known</string>
+
+
+    <array name="Fields">
+        <item>firstName</item>
+        <item>grNo</item>
+        <item>rollNo</item>
+    </array>
+
+    <array name="Branch">
+        <item>Computer</item>
+        <item>ENTC</item>
+        <item>IT</item>
+        <item>Mechanical</item>
+        <item>Civil</item>
+    </array>
+
+    <array name="Shift">
+        <item>First Shift</item>
+        <item>Second Shift</item>
+    </array>
+
+    <array name="Batch">
+        <item>A1</item>
+        <item>A2</item>
+        <item>A3</item>
+        <item>B1</item>
+        <item>B2</item>
+        <item>B3</item>
+        <item>C1</item>
+        <item>C2</item>
+        <item>C3</item>
+    </array>
+
+    <array name="Year">
+        <item>FE</item>
+        <item>SE</item>
+        <item>TE</item>
+        <item>BE</item>
+    </array>
+
+
+
+</resources>
